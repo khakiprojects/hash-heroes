@@ -1,0 +1,45 @@
+body {
+  font-family: Avenir;
+  margin: 32px 44px;
+}
+
+h3 {
+  margin: 32px 0;
+  text-align: center;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 480px;
+}
+
+.hero-input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-input input {
+  border-radius: 5px;
+  border: 2px solid gray;
+  font-size: 18px;
+  margin-bottom: 30px;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+}
+
+.hash-hero-wrapper {
+  height: 128px;
+}
+
+.hero-grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 448px;
+}
+
+.hero-grid > div {
+  margin: 0 4px 4px 4px;
+}
