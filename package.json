@@ -7,7 +7,6 @@
     "build": "rm -rf lib && mkdir lib && babel src -d lib",
     "dev": "webpack-dev-server --config webpack.config.dev.js --open",
     "prepublishOnly": "npm run build",
-    "prepare": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
