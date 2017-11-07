@@ -1,6 +1,23 @@
 hash-heroes
 ==========
 
+# usage
+
+```js
+import HashHero from 'hash-heroes'
+
+export default class App extends React.Component {
+
+  …
+
+  render() {
+    return (
+      <HashHero seed={address} scalingFactor={4} />
+    )
+  }
+}
+```
+
 # setup
 
 ```sh
