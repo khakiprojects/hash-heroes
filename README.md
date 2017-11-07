@@ -1,5 +1,6 @@
 hash-heroes
 ==========
+[![NPM version][npm-image]][npm-url] [![dependencies Status][david-dep-image]][david-dep-url] [![devDependencies Status][david-devDep-image]][david-devDep-url]
 
 # usage
 
@@ -48,3 +49,10 @@ $ git checkout gh-pages
 $ cd demo && npm i # or yarn
 $ npm run start # or yarn start
 ```
+
+[david-dep-image]: https://david-dm.org/khakiprojects/hash-heroes/status.svg
+[david-dep-url]: https://david-dm.org/khakiprojects/hash-heroes
+[david-devDep-image]: https://david-dm.org/khakiprojects/hash-heroes/dev-status.svg
+[david-devDep-url]: https://david-dm.org/khakiprojects/hash-heroes?type=dev
+[npm-image]: https://badge.fury.io/js/hash-heroes.svg
+[npm-url]: https://npmjs.org/package/hash-heroes

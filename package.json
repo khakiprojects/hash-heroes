@@ -1,6 +1,6 @@
 {
   "name": "hash-heroes",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Icon library for Ethereum addresses.",
   "main": "lib/index.js",
   "scripts": {
