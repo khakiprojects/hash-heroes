@@ -1,7 +1,7 @@
 {
   "name": "hash-heroes",
-  "version": "1.0.6",
-  "description": "",
+  "version": "1.0.7",
+  "description": "Icon library for Ethereum addresses.",
   "main": "lib/index.js",
   "scripts": {
     "build": "rm -rf lib && mkdir lib && babel src -d lib",
@@ -9,13 +9,21 @@
     "prepublishOnly": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khakiprojects/hash-heroes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/khakiprojects/hash-heroes/issues"
+  },
+  "homepage": "https://hashheroes.com",
   "keywords": [
     "jazzicon",
     "react",
     "ethereum",
     "metamask"
   ],
-  "author": "",
+  "author": "khakiprojects",
   "license": "MIT",
   "dependencies": {
     "konva": "^1.6.8",
